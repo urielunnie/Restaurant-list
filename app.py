@@ -9,7 +9,7 @@ from audioop import add
 
 MONGODB_URI = os.environ.get(
     "mongodb+srv://test:sparta@cluster0.sfozobg.mongodb.net/")
-DB_NAME = os.environ.get("client.dbsparta_plus_week14")
+DB_NAME = os.environ.get("dbsparta_plus_week14")
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
